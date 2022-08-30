@@ -10,8 +10,9 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
 import budgetCard from '../card/budgetCard.vue';
-export default {
+export default Vue.extend({
   name: 'BudgetForm',
   components: { budgetCard },
   data: () => ({
@@ -42,7 +43,7 @@ export default {
       this.$emit('selectBudget', this.listBudget[id - 1].budget);
     },
   },
-};
+});
 </script>
 
 <style></style>

@@ -8,7 +8,7 @@
       v-model="text"
       :rules="rule"
       :placeholder="placeholder"
-      class="w-[284px] h-[66px] rounded-full text-[18px] sm:w-full"
+      class="w-[284px] h-[66px] rounded-full text-[18px] sm:w-full shadow-md"
       outlined
       required
     >
@@ -24,7 +24,8 @@ import UserIcon from '../icons/user.vue';
 import CompanyIcon from '../icons/company.vue';
 import MailIcon from '../icons/mail.vue';
 import PhoneIcon from '../icons/phone.vue';
-export default {
+import Vue from 'vue';
+export default Vue.extend({
   name: 'InputForm',
   components: {
     UserIcon,
@@ -61,7 +62,7 @@ export default {
       }
     },
   },
-};
+});
 </script>
 
 <style scope>

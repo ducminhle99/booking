@@ -12,8 +12,9 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
 import InputForm from '../input/input.vue';
-export default {
+export default Vue.extend({
   name: 'ContactDetail',
   components: {
     InputForm,
@@ -42,7 +43,7 @@ export default {
       this.$emit('setContact', this.contact);
     },
   },
-};
+});
 </script>
 
 <style></style>

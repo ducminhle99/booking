@@ -18,8 +18,8 @@
 
 <script lang="ts">
 import serviceCard from '../card/serviceCard.vue';
-
-export default {
+import Vue from 'vue';
+export default Vue.extend({
   name: 'OurService',
   components: { serviceCard },
   data: () => ({
@@ -54,7 +54,7 @@ export default {
       this.$emit('selectService', this.listService[id - 1].title);
     },
   },
-};
+});
 </script>
 
 <style></style>
