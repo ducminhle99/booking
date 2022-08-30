@@ -1,0 +1,62 @@
+{
+  "BookingForm": {
+    "description": "Auto imported from components/bookingForm.vue"
+  },
+  "MessageError": {
+    "description": "Auto imported from components/messageError.vue"
+  },
+  "Step": {
+    "description": "Auto imported from components/step.vue"
+  },
+  "ButtonBack": {
+    "description": "Auto imported from components/button/buttonBack.vue"
+  },
+  "ButtonSubmit": {
+    "description": "Auto imported from components/button/buttonSubmit.vue"
+  },
+  "FormBudgetForm": {
+    "description": "Auto imported from components/form/budgetForm.vue"
+  },
+  "FormContactDetail": {
+    "description": "Auto imported from components/form/contactDetail.vue"
+  },
+  "FormFinishForm": {
+    "description": "Auto imported from components/form/finishForm.vue"
+  },
+  "FormOurService": {
+    "description": "Auto imported from components/form/ourService.vue"
+  },
+  "CardBudgetCard": {
+    "description": "Auto imported from components/card/budgetCard.vue"
+  },
+  "CardServiceCard": {
+    "description": "Auto imported from components/card/serviceCard.vue"
+  },
+  "IconsCompany": {
+    "description": "Auto imported from components/icons/company.vue"
+  },
+  "IconsMail": {
+    "description": "Auto imported from components/icons/mail.vue"
+  },
+  "IconsMaketing": {
+    "description": "Auto imported from components/icons/maketing.vue"
+  },
+  "IconsPhone": {
+    "description": "Auto imported from components/icons/phone.vue"
+  },
+  "IconsSetting": {
+    "description": "Auto imported from components/icons/setting.vue"
+  },
+  "IconsTerminal": {
+    "description": "Auto imported from components/icons/terminal.vue"
+  },
+  "IconsUser": {
+    "description": "Auto imported from components/icons/user.vue"
+  },
+  "IconsWeb": {
+    "description": "Auto imported from components/icons/web.vue"
+  },
+  "Input": {
+    "description": "Auto imported from components/input/input.vue"
+  }
+}
