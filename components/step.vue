@@ -4,7 +4,10 @@
       <div class="w-[34px] h-[34px] bg-[#EFF0F6] rounded-full transition-all duration-300 delay-200" :class="{ done: step >= item }">
         <div class="w-[34px] h-[34px] flex justify-center items-center" :class="{ done: step >= item }">{{ item }}</div>
       </div>
-      <div class="w-[80%] h-[6px] bg-secondary rounded-full mx-[18px] transition-all duration-500" :class="{ 'progress-done': step > item }"></div>
+      <div
+        class="w-24 sm:w-16 xsm:w-0 h-[6px] bg-secondary rounded-full mx-[18px] transition-all duration-500"
+        :class="{ 'progress-done': step > item }"
+      ></div>
     </div>
     <div class="w-[34px] h-[34px] bg-secondary rounded-full">
       <div class="w-[34px] h-[34px] flex justify-center items-center" :class="{ done: step == 4 }">4</div>

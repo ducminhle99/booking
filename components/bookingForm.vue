@@ -23,6 +23,7 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
 import Step from './step.vue';
 import contactDetail from './form/contactDetail.vue';
 import OurService from './form/ourService.vue';
@@ -47,7 +48,7 @@ interface Data {
   budget: string;
   message: string;
 }
-export default {
+export default Vue.extend({
   name: 'BookingForm',
   components: { contactDetail, OurService, Step, BudgetForm, FinishForm, ButtonSubmit, ButtonBack, MessageError },
   data(): Data {
@@ -127,6 +128,6 @@ export default {
       console.log({ ...this.$data.contact });
     },
   },
-};
+});
 </script>
 <style></style>

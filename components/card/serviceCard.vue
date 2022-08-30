@@ -24,7 +24,8 @@ import terminal from '../icons/terminal.vue';
 import maketing from '../icons/maketing.vue';
 import web from '../icons/web.vue';
 import setting from '../icons/setting.vue';
-export default {
+import Vue from 'vue';
+export default Vue.extend({
   name: 'ServiceCard',
   props: {
     icon: {
@@ -50,7 +51,7 @@ export default {
       this.$emit('clickCard', this.card);
     },
   },
-};
+});
 </script>
 
 <style></style>
