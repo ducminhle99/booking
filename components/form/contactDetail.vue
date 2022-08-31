@@ -3,9 +3,9 @@
     <p class="font-bold text-2xl text-[#170F49]">Contact details</p>
     <p class="text-[#6F6C90] text-[18px] mt-2">Lorem ipsum dolor sit amet consectetur adipisc.</p>
     <div class="mt-10 flex flex-wrap justify-between sm:flex-col">
-      <input-form icon="user-icon" title="name" placeholder="John Carter" :rule="nameRules" @changeText="handleInput" />
+      <input-form icon="user-icon" title="name" placeholder="Your name" :rule="nameRules" @changeText="handleInput" />
       <input-form icon="mail-icon" title="email" placeholder="Email address" :rule="emailRules" @changeText="handleInput" />
-      <input-form icon="phone-icon" title="phone" placeholder="(123) 456 - 7890" :rule="phoneRules" @changeText="handleInput" />
+      <input-form icon="phone-icon" title="phone" placeholder="033333333" :rule="phoneRules" @changeText="handleInput" />
       <input-form icon="company-icon" title="company" placeholder="Company name" :rule="companyRules" @changeText="handleInput" />
     </div>
   </div>

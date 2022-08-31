@@ -1,23 +1,23 @@
-export const BookingForm = () => import('../../components/bookingForm.vue' /* webpackChunkName: "components/booking-form" */).then(c => wrapFunctional(c.default || c))
-export const MessageError = () => import('../../components/messageError.vue' /* webpackChunkName: "components/message-error" */).then(c => wrapFunctional(c.default || c))
-export const Step = () => import('../../components/step.vue' /* webpackChunkName: "components/step" */).then(c => wrapFunctional(c.default || c))
-export const ButtonBack = () => import('../../components/button/buttonBack.vue' /* webpackChunkName: "components/button-back" */).then(c => wrapFunctional(c.default || c))
-export const ButtonSubmit = () => import('../../components/button/buttonSubmit.vue' /* webpackChunkName: "components/button-submit" */).then(c => wrapFunctional(c.default || c))
-export const FormBudgetForm = () => import('../../components/form/budgetForm.vue' /* webpackChunkName: "components/form-budget-form" */).then(c => wrapFunctional(c.default || c))
-export const FormContactDetail = () => import('../../components/form/contactDetail.vue' /* webpackChunkName: "components/form-contact-detail" */).then(c => wrapFunctional(c.default || c))
-export const FormFinishForm = () => import('../../components/form/finishForm.vue' /* webpackChunkName: "components/form-finish-form" */).then(c => wrapFunctional(c.default || c))
-export const FormOurService = () => import('../../components/form/ourService.vue' /* webpackChunkName: "components/form-our-service" */).then(c => wrapFunctional(c.default || c))
-export const CardBudgetCard = () => import('../../components/card/budgetCard.vue' /* webpackChunkName: "components/card-budget-card" */).then(c => wrapFunctional(c.default || c))
-export const CardServiceCard = () => import('../../components/card/serviceCard.vue' /* webpackChunkName: "components/card-service-card" */).then(c => wrapFunctional(c.default || c))
-export const IconsCompany = () => import('../../components/icons/company.vue' /* webpackChunkName: "components/icons-company" */).then(c => wrapFunctional(c.default || c))
-export const IconsMail = () => import('../../components/icons/mail.vue' /* webpackChunkName: "components/icons-mail" */).then(c => wrapFunctional(c.default || c))
-export const IconsMaketing = () => import('../../components/icons/maketing.vue' /* webpackChunkName: "components/icons-maketing" */).then(c => wrapFunctional(c.default || c))
-export const IconsPhone = () => import('../../components/icons/phone.vue' /* webpackChunkName: "components/icons-phone" */).then(c => wrapFunctional(c.default || c))
-export const IconsSetting = () => import('../../components/icons/setting.vue' /* webpackChunkName: "components/icons-setting" */).then(c => wrapFunctional(c.default || c))
-export const IconsTerminal = () => import('../../components/icons/terminal.vue' /* webpackChunkName: "components/icons-terminal" */).then(c => wrapFunctional(c.default || c))
-export const IconsUser = () => import('../../components/icons/user.vue' /* webpackChunkName: "components/icons-user" */).then(c => wrapFunctional(c.default || c))
-export const IconsWeb = () => import('../../components/icons/web.vue' /* webpackChunkName: "components/icons-web" */).then(c => wrapFunctional(c.default || c))
-export const Input = () => import('../../components/input/input.vue' /* webpackChunkName: "components/input" */).then(c => wrapFunctional(c.default || c))
+export { default as BookingForm } from '../../components/bookingForm.vue'
+export { default as MessageError } from '../../components/messageError.vue'
+export { default as Step } from '../../components/step.vue'
+export { default as ButtonBack } from '../../components/button/buttonBack.vue'
+export { default as ButtonSubmit } from '../../components/button/buttonSubmit.vue'
+export { default as FormBudgetForm } from '../../components/form/budgetForm.vue'
+export { default as FormContactDetail } from '../../components/form/contactDetail.vue'
+export { default as FormFinishForm } from '../../components/form/finishForm.vue'
+export { default as FormOurService } from '../../components/form/ourService.vue'
+export { default as CardBudgetCard } from '../../components/card/budgetCard.vue'
+export { default as CardServiceCard } from '../../components/card/serviceCard.vue'
+export { default as IconsCompany } from '../../components/icons/company.vue'
+export { default as IconsMail } from '../../components/icons/mail.vue'
+export { default as IconsMaketing } from '../../components/icons/maketing.vue'
+export { default as IconsPhone } from '../../components/icons/phone.vue'
+export { default as IconsSetting } from '../../components/icons/setting.vue'
+export { default as IconsTerminal } from '../../components/icons/terminal.vue'
+export { default as IconsUser } from '../../components/icons/user.vue'
+export { default as IconsWeb } from '../../components/icons/web.vue'
+export { default as Input } from '../../components/input/input.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
