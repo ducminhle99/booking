@@ -8,9 +8,11 @@
       v-model="text"
       :rules="rule"
       :placeholder="placeholder"
-      class="w-[284px] h-[66px] rounded-full text-[18px] sm:w-full shadow-md"
-      outlined
+      class="w-[284px] h-[66px] rounded-full text-[18px] sm:w-full shadow-sm text-secondary"
+      solo
       required
+      :type="type"
+      hide-spin-buttons
     >
       <template v-slot:append>
         <component :is="icon"></component>
@@ -50,6 +52,10 @@ export default Vue.extend({
       type: [],
       default: [(v) => !!v || 'Text is required'],
     },
+    type: {
+      type: String,
+      default: 'text',
+    },
   },
   data: () => ({
     valid: false,
@@ -68,5 +74,9 @@ export default Vue.extend({
 <style scope>
 .v-text-field__slot {
   padding: 20px;
+}
+.v-input__slot {
+  border: 2px !important;
+  border-style: solid !important;
 }
 </style>

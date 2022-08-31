@@ -4,7 +4,7 @@
       <img height="34px" src="../../assets/images/Logo.png" alt="logo" />
       <p class="font-normal text-lg mt-4 text-[#6F6C90] lg:hidden">Copyright © 2021 BRIX Templates | All Rights Reserved</p>
     </div>
-    <div class="rounded-full w-[500px] sm:w-full h-20 sm:h-16 md:my-5 mx-5 bg-white shadow-md border border-solid border-[#EFF0F6]">
+    <div class="rounded-full w-[500px] h-20 sm:h-16 md:my-5 mx-5 sm:w-full min-w-[300px] bg-white shadow-md border border-solid border-[#EFF0F6]">
       <div class="flex justify-between items-center w-full h-full pl-8 pr-5">
         <input type="text" placeholder="Enter your email" class="outline-none w-full" />
         <div class="sm:hidden">
