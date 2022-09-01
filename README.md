@@ -21,4 +21,4 @@ For detailed explanation on how things work, check out the [documentation](https
 
 ## live demo
 
-https://630ed7a05a898c0008c3d023--bokking-steps-form.netlify.app/
+https://bokking-steps-form.netlify.app/
